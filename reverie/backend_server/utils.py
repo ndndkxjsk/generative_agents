@@ -1,12 +1,12 @@
 import os
 
 # Fetch the OpenAI API Key from the environment variable
-openai_api_key = os.environ.get('OPENAI_API_KEY', 'Default_Value_If_Not_Found')
+openai_api_key = os.environ['OPENAI_API_KEY']
 # If you want the script to fail if the key is not set, you can use:
 # openai_api_key = os.environ['OPENAI_API_KEY']
 
 # Put your name
-key_owner = os.environ.get('KEY_OWNER', 'Default_Name_If_Not_Found')
+key_owner = os.environ['KEY_OWNER']
 # If you want the script to fail if the name is not set, you can use:
 # key_owner = os.environ['KEY_OWNER']
 
